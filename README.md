@@ -3,10 +3,10 @@
 This Flutter app allows users to input any text, translate it into multiple languages, 
 and use Text-to-Speech (TTS) to speak the translated text aloud with different voice options available on the device.
 
-
 ### 📽 App Demo
 
-[![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=demo.mp4)
+[![Watch the demo](./demo.gif)](./demo.mp4)
+
 
 
 
@@ -77,6 +77,7 @@ and use Text-to-Speech (TTS) to speak the translated text aloud with different v
 📶 Internet Required for translation to work.
 
 🌐 Unofficial API: translator uses an unofficial Google Translate endpoint and may break or throttle under load.
+
 
 
 
