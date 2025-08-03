@@ -1,16 +1,69 @@
-# multilingual_tts
+## 🗣️ TTS Multi-Language Translator App
 
-A new Flutter project.
+This Flutter app allows users to input any text, translate it into multiple languages, 
+and use Text-to-Speech (TTS) to speak the translated text aloud with different voice options available on the device.
 
-## Getting Started
+### 🚀 Features
 
-This project is a starting point for a Flutter application.
+* 🌍 Translate text into multiple languages
+* 🗣️ Speak translated text using Flutter TTS
+* 🔄 Cycles through available voices for each language
+* 📱 Compatible with Android and iOS
+* 🎯 User-friendly interface with dropdown selection
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🛠️ Setup Instructions
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/tanveerkhan87/Multilingual_TTS.git
+   cd Multilingual_TTS
+
+
+2. **Install Dependencies**
+
+   ```bash
+   flutter pub get
+   ```
+
+3. **Ensure Required Packages Are Added in `pubspec.yaml`:**
+
+   ```yaml
+   dependencies:
+     flutter:
+       sdk: flutter
+     flutter_tts: ^3.8.0
+     translator: ^0.1.7
+   ```
+
+4. **Run the App**
+
+   ```bash
+   flutter run
+   ```
+
+---
+
+---
+
+### 🌐 Supported Languages
+
+* Urdu (`ur-PK`)
+* English (`en-US`)
+* French (`fr-FR`)
+* Spanish (`es-ES`)
+* German (`de-DE`)
+* Japanese (`ja-JP`)
+* Russian (`ru-RU`)
+
+---
+
+### ⚠️ Known Limitations or Assumptions
+
+* ❗ **Device Dependency**: Voice availability depends on the device's installed TTS engines.
+* 🔄 **Voice Index Cycles**: The app cycles voices only if multiple TTS voices are installed.
+* 📶 **Internet Required**: Translation uses the Google Translate API, which requires an active internet connection.
+* 🌐 **Google Translate API Limitations**: The free `translator` package uses an unofficial endpoint, which may break or throttle under high usage.
+
