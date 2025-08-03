@@ -6,7 +6,7 @@ and use Text-to-Speech (TTS) to speak the translated text aloud with different v
 
 ### 📽 App Demo
 
-[![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=demo.mp4)
 
 
 
@@ -77,6 +77,7 @@ and use Text-to-Speech (TTS) to speak the translated text aloud with different v
 📶 Internet Required for translation to work.
 
 🌐 Unofficial API: translator uses an unofficial Google Translate endpoint and may break or throttle under load.
+
 
 
 
