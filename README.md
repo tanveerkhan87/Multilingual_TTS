@@ -60,10 +60,13 @@ and use Text-to-Speech (TTS) to speak the translated text aloud with different v
 
 ---
 
-### ⚠️ Known Limitations or Assumptions
+⚠️ Limitations
+❗ TTS Voices depend on the device's installed engines.
 
-* ❗ **Device Dependency**: Voice availability depends on the device's installed TTS engines.
-* 🔄 **Voice Index Cycles**: The app cycles voices only if multiple TTS voices are installed.
-* 📶 **Internet Required**: Translation uses the Google Translate API, which requires an active internet connection.
-* 🌐 **Google Translate API Limitations**: The free `translator` package uses an unofficial endpoint, which may break or throttle under high usage.
+🔄 Voice Switching works only if multiple voices are available.
+
+📶 Internet Required for translation to work.
+
+🌐 Unofficial API: translator uses an unofficial Google Translate endpoint and may break or throttle under load.
+
 
